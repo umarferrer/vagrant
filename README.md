@@ -1,6 +1,10 @@
 vagrant
 =======
+SET those two variables :
 
-Replace all $PROJECT$ by the project name
+PROJECT_NAME  = "projectName"
+SERVER_IP     = "192.168.40.10"
 
-add $PROJECT$.local to /etc/vhosts
+add projectName.local to /etc/vhosts
+
+Enjoy
